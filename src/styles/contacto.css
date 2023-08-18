@@ -1,0 +1,43 @@
+.holderform h1{
+    display: flex;
+    justify-content:center; 
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+   
+}
+img{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.formulario p label{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+    min-width: 100px;
+
+}
+textarea{
+    box-shadow: 0 0 12px rgba(0,0,0,0.4);
+    resize: none;
+    width: 100%;
+}
+input{
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    width: 100%;
+}
+.formulario input[type="submit"]{
+    font-family: 'Montserrat', sans-serif;
+    background: #6da9ed;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    color:white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+.formulario input[type="submit"]:hover{
+    background-color: #2e64a1;
+}
