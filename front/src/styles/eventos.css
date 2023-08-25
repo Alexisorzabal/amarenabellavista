@@ -2,10 +2,9 @@
     font-family: 'Montserrat', sans-serif;
     background-color: #f9f9f9;
     padding: 50px;
-    text-align: start;
-   
-    
-}
+    text-align: start; 
+
+  }
 
 .historia{
     color: #777576;
@@ -18,9 +17,24 @@
     font-size: large;
     color: black;
 }
-.imgevento{
-    display: flex;
-    justify-content: center;
-    
 
+
+
+.photo-box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.photo-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.photo-box h2 {
+  margin-top: 10px;
+  font-size: 1.2rem;
 }

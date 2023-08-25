@@ -3,7 +3,7 @@ import '../styles/eventos.css'
 
 const Eventos = (props) => {
   return (
-    <main className="holder contacto">
+    <main className="holderevento">
       <div className="holderform">
         <section className="story">
           <h2 className="historia">Eventos</h2>
@@ -23,10 +23,14 @@ const Eventos = (props) => {
             ¡Dulzura y diversión te esperan en Amarena Eventos! 🍨🎈
           </div>
         </section>
-        <div className='imgevento'>
-          <img src='/img/5.jpg'/>
-          <img src='/img/4.jpg'/>
-     </div>
+        <div className="photo-box">
+          <img src="/img/4.jpg" alt="Foto 1" />
+          <h2>Descripción de la Foto 1</h2>
+        </div>
+        <div className="photo-box">
+          <img src="/img/5.jpg" alt="Foto 2" />
+          <h2>Descripción de la Foto 2</h2>
+        </div>
       </div>
     </main>
   )

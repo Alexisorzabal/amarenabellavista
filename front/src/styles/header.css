@@ -6,7 +6,8 @@ header{
     align-items: center;
     padding: 10px;
     box-shadow: 0 0 5px black;
-    border-radius: 0px 0px 10px  ;    
+    border-radius: 0px 0px 10px  ;   
+    
 }
 .logo{
     display: flex;
