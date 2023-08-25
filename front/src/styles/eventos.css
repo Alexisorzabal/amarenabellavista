@@ -1,0 +1,26 @@
+.story {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: start;
+   
+    
+}
+
+.historia{
+    color: #777576;
+    font-size: xx-large;
+       
+}
+
+.eventos{
+    padding-left: 20px;
+    font-size: large;
+    color: black;
+}
+.imgevento{
+    display: flex;
+    justify-content: center;
+    
+
+}

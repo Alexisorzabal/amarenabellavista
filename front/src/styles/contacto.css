@@ -1,0 +1,90 @@
+.story {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f9f9f9;
+  padding: 50px;
+  text-align: start;
+ 
+  
+}
+
+.holdercontacto{
+  margin: 0;
+  padding: 0;
+}
+
+.contenedorcontact{
+  display: flex;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.rapido{
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding-bottom: 125px;
+  padding-left: 100px;
+}
+ .contactmap{
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden; 
+
+ }
+
+
+
+.contacto{
+  color: #777576;
+  font-size: xx-large;
+  
+  
+}
+
+.contactotext{
+  padding-left: 20px;
+  font-size: large;
+}
+.formulario{
+  
+ 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario p{
+  display: flex;
+  justify-content: flex-start;
+  max-width: 800px;
+  margin: 0; /* Elimina el margen predeterminado de los párrafos */
+  padding: 10px; 
+  background-color: #f4f4f4; 
+  border-radius: 3px;
+  
+  
+}
+.formulario p label{
+  min-width: 100px;
+
+}
+
+
+.formulario input[type="submit"]{
+  background: #6da9ed;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  color:white;
+  font-size: 16px;
+  padding: 6px 20px;
+  width: auto;
+  position: relative;
+  left: 5rem;
+  cursor: pointer;
+  
+}
+.formulario input[type="submit"]:hover{
+  background-color: #2e64a1;
+}
